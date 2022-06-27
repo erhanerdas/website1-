@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  background: white;
+
+}
+.hero {
+  background-image: url("https://www.tvinsider.com/wp-content/uploads/2022/04/Come-Dance-With-Me-1014x570.jpg");
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+  background-size: cover;
+}
+.hero2 {
+  background-image: url("https://maisondeladanse.com/sites/default/files/styles/header_spectacle/public/cover/8-bjm-frisec-marc-montplaisir-b.jpg");
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+  background-size: cover;
+}
+.hero3 {
+  background-image: url("https://www.impulsion-dance.be/images/slideshow-homepage/home_slideshow-2.jpg");
+  height: 92%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: center;
+}
+.hero4 {
+  background-image: url("https://marthagraham.edu/wp-content/uploads/2022/05/Group_skips-1024x1024.jpg");
+  height: 90%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: center;
+}
+.hero h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;  
+}
+.hero h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;  
+}
+.hero2 h1 {
+  color: black;
+  font-size: 100px;
+  text-align: center;  
+}
+.hero2 h3 {
+  color: black;
+  font-size: 40px;
+  text-align: center;  
+}
+
+.heromain {
+  margin: 0px;
+}
+.card, .card-image {
+  border-radius: 20px;
+  border: none;
+}
+.card-image {
+  height: 300px;
+}
+.img-responsive2{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.equipe p {
+  margin: 10%;
+}
+.equipe {
+  margin: 5%;
+}
+@media screen and (max-width: 992px){
+.hero {
+  background-image: url("https://www.journaldugeek.com/content/uploads/2020/02/danse-femme-yoga.jpg")
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
